@@ -125,3 +125,52 @@ hr {
     color:lime;
 }
 */
+
+/*For Footer*/
+.footer-top{
+    padding: 32px 187px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    text-align: left;
+    margin-left: 13px;
+    margin-right: -27px;
+}
+
+.footer-top h5{
+    font-weight: bold;
+}
+
+.footer-top h5:hover{
+    text-decoration: none;
+}
+
+.footer-top a{
+    font-size: 0.8rem;
+}
+
+.footer-link-item a{
+    color: #fff;
+    margin: 2px 77px;
+}
+
+.footer-link-item a:link,a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link-item a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-heading{
+    margin-left: 77px;
+}
+
+.footer-mid p{
+    font-size: 0.875rem;
+}
+
+.footer-mid p a{
+    margin: 0px 4px;
+}
