@@ -127,17 +127,22 @@ hr {
 */
 
 /*For Footer*/
+.footer{
+    background-color: #008080;
+}
+
 .footer-top{
-    padding: 32px 187px;
+    padding: 2.4rem 11.68rem;
     display: grid;
     grid-template-columns: repeat(3,auto);
     text-align: left;
-    margin-left: 13px;
-    margin-right: -27px;
+    margin-left: 0.81rem;
+    margin-right: -1.68rem;
 }
 
 .footer-top h5{
     font-weight: bold;
+    color: #fff;
 }
 
 .footer-top h5:hover{
@@ -150,7 +155,7 @@ hr {
 
 .footer-link-item a{
     color: #fff;
-    margin: 2px 77px;
+    margin: 2px 4.81rem;
 }
 
 .footer-link-item a:link,a:visited{
@@ -163,14 +168,91 @@ hr {
     text-decoration: underline;
 }
 
-.footer-heading{
-    margin-left: 77px;
+.footer-heading-1,.footer-heading-2,.footer-heading-3{
+    margin-left: 4.81rem;
+}
+
+.footer-mid{
+    text-align: center;
 }
 
 .footer-mid p{
     font-size: 0.875rem;
+    color: #fff;
 }
 
 .footer-mid p a{
-    margin: 0px 4px;
+    margin: 0px 0.25rem;
+}
+
+/*Responsive Code*/
+@media screen and (min-width:1200px) and (max-width:1403px) {
+    .footer-top{
+        padding: 2.4rem 6rem;
+    }
+    
+    .footer-link-item a{
+        color: #fff;
+        margin: 2px 4.81rem;
+    }
+}
+
+ @media screen and (min-width:990px) and (max-width:1200px) {
+    .footer-top{
+        padding: 2.4rem 6.68rem;
+    }
+    .footer-heading-1,.footer-heading-2,.footer-heading-3{
+        margin-left: 2.81rem;
+    }
+    .footer-link-item a{
+        margin: 2px 2.81rem;
+    }
+} 
+
+@media screen and (min-width:770px) and (max-width:990px) {
+    .footer-top{
+        padding: 2.4rem 7.68rem;
+    }
+    .footer-heading-1,.footer-heading-2,.footer-heading-3{
+        margin-left: 0.8rem;
+    }
+    .footer-link-item a{
+        margin: 2px 0.81rem;
+    }
+}
+
+@media screen and (min-width:590px) and (max-width:770px) {
+    .footer-top{
+        padding: 2.4rem 2.68rem;
+    }
+    .footer-heading-1,.footer-heading-2,.footer-heading-3{
+        margin-left: 0.8rem;
+    }
+    .footer-link-item a{
+        margin: 2px 0.8rem;
+    }
+}
+
+@media screen and (max-width:590px){
+    .footer-top{
+        padding: 1.4rem 2.68rem;
+    }
+    .footer-heading-1,.footer-heading-2,.footer-heading-3{
+        margin-left: 0rem;
+    }
+    .about{
+        margin-left: -2rem;
+        padding-right: 2rem;
+    }
+    .support{
+        margin-right: 1rem;
+        margin-left: -1rem;
+    }
+    .footer-link-item{
+        margin: 8px 0;
+        line-height: 1rem;
+    }
+    .footer-link-item a{
+        margin: 2px 0rem;
+    }
 }
