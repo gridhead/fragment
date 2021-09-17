@@ -129,6 +129,8 @@ hr {
 /*For Footer*/
 .footer{
     background-color: #008080;
+    margin-top: -8px;
+    border-radius: 0.25rem;
 }
 
 .footer-top{
