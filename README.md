@@ -1,6 +1,10 @@
 # fragment
 Python Flask project used to aggregate and distribute IRC meeting minutes and logs for the Fedora Project
 
+## Note
+
+The repository has been archived and the code has been moved away to https://github.com/fedora-infra/mote/tree/fragment.
+
 ## How to set up?
 
 1. `git clone https://github.com/t0xic0der/fragment.git`
